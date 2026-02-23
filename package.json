@@ -1,0 +1,36 @@
+{
+  "name": "autowala",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Auto booking platform for Kolhapur - WhatsApp-first, union-partnered",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:frontend": "turbo run dev --filter=frontend",
+    "dev:backend": "turbo run dev --filter=backend",
+    "dev:whatsapp": "turbo run dev --filter=whatsapp-bot",
+    "build": "turbo run build",
+    "build:frontend": "turbo run build --filter=frontend",
+    "build:backend": "turbo run build --filter=backend",
+    "build:whatsapp": "turbo run build --filter=whatsapp-bot",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "deploy": "./scripts/deploy.sh"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "@types/leaflet": "^1.9.21",
+    "leaflet": "^1.9.4",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3"
+  }
+}

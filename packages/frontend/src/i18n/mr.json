@@ -1,0 +1,95 @@
+{
+  "app": {
+    "name": "Autowala",
+    "tagline": "कोल्हापूरात ऑटो बुक करा"
+  },
+  "common": {
+    "loading": "लोड होत आहे...",
+    "error": "काहीतरी चूक झाली",
+    "retry": "पुन्हा प्रयत्न करा",
+    "cancel": "रद्द करा",
+    "confirm": "पुष्टी करा",
+    "save": "सेव्ह करा",
+    "back": "मागे",
+    "next": "पुढे",
+    "submit": "सबमिट करा",
+    "close": "बंद करा"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "logout": "लॉगआउट",
+    "phone": "फोन नंबर",
+    "phonePlaceholder": "तुमचा फोन नंबर टाका",
+    "otp": "OTP",
+    "otpPlaceholder": "OTP टाका",
+    "sendOtp": "OTP पाठवा",
+    "verifyOtp": "OTP तपासा",
+    "resendOtp": "OTP पुन्हा पाठवा",
+    "driverLogin": "ड्रायव्हर लॉगिन",
+    "userLogin": "युजर लॉगिन"
+  },
+  "home": {
+    "title": "तुमचे ऑटो बुक करा",
+    "subtitle": "पिकअप आणि ड्रॉप लोकेशन निवडा",
+    "pickup": "पिकअप लोकेशन",
+    "drop": "ड्रॉप लोकेशन",
+    "recentRides": "मागील प्रवास",
+    "noRecentRides": "मागील प्रवास नाही",
+    "popularRoutes": "लोकप्रिय मार्ग",
+    "bookNow": "आता बुक करा",
+    "estimatedFare": "अंदाजित भाडे",
+    "selectZone": "परिसर निवडा"
+  },
+  "booking": {
+    "findingDriver": "तुमचा ऑटो शोधत आहो...",
+    "driverAssigned": "ड्रायव्हर नियुक्त",
+    "driverArrived": "ड्रायव्हर आला",
+    "inProgress": "प्रवास सुरू",
+    "completed": "प्रवास पूर्ण",
+    "cancelled": "प्रवास रद्द",
+    "driverName": "ड्रायव्हरचे नाव",
+    "autoNumber": "ऑटो नंबर",
+    "contact": "ड्रायव्हरशी संपर्क",
+    "cancelRide": "प्रवास रद्द करा",
+    "rateRide": "रेट द्या",
+    "pending": "ड्रायव्हर शोधत आहो",
+    "driverassigned": "ड्रायव्हर नियुक्त",
+    "driverarrived": "ड्रायव्हर आला",
+    "inprogress": "प्रवास सुरू",
+    "completed": "प्रवास पूर्ण",
+    "cancelled": "प्रवास रद्द"
+  },
+  "driver": {
+    "title": "ड्रायव्हर डॅशबोर्ड",
+    "newRide": "नवीन प्रवास विनंती",
+    "accept": "स्वीकार",
+    "decline": "नकार",
+    "arrived": "आला",
+    "startRide": "प्रवास सुरू करा",
+    "completeRide": "प्रवास पूर्ण करा",
+    "earnings": "आजची कमाई",
+    "rides": "एकूण प्रवास",
+    "rating": "रेटिंग",
+    "status": {
+      "available": "उपलब्ध",
+      "busy": "व्यस्त",
+      "offline": "ऑफलाइन"
+    }
+  },
+  "zones": {
+    "railway-station": "रेल्वे स्थानक",
+    "bus-stand": "मध्यवर्ती बस स्थानक",
+    "shahupuri": "शाहपूरी मार्केट",
+    "mahalaxmi": "महालक्ष्मी मंदिर",
+    "jyotiba": "ज्योतिबा मंदिर",
+    "rankala": "रांकला तलाव",
+    "panhala": "पन्हाळा किल्ला",
+    "khasbag": "खासबाग स्टेडियम",
+    "shivaji-udyan": "शिवाजी उद्यान नगर",
+    "sykes": "सायक्स एक्स्टेंशन",
+    "ruchira": "रुचिरा पार्क",
+    "sangavi": "सांगवी",
+    "tarabai-park": "ताराबाई पार्क",
+    "laxmipuri": "लक्ष्मीपूरी"
+  }
+}

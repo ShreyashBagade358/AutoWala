@@ -1,0 +1,95 @@
+{
+  "app": {
+    "name": "Autowala",
+    "tagline": "Book auto easily in Kolhapur"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "close": "Close"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "otp": "OTP",
+    "otpPlaceholder": "Enter OTP",
+    "sendOtp": "Send OTP",
+    "verifyOtp": "Verify OTP",
+    "resendOtp": "Resend OTP",
+    "driverLogin": "Driver Login",
+    "userLogin": "User Login"
+  },
+  "home": {
+    "title": "Book Your Auto",
+    "subtitle": "Select pickup and drop location",
+    "pickup": "Pickup Location",
+    "drop": "Drop Location",
+    "recentRides": "Recent Rides",
+    "noRecentRides": "No recent rides",
+    "popularRoutes": "Popular Routes",
+    "bookNow": "Book Now",
+    "estimatedFare": "Estimated Fare",
+    "selectZone": "Select Zone"
+  },
+  "booking": {
+    "findingDriver": "Finding your auto...",
+    "driverAssigned": "Driver Assigned",
+    "driverArrived": "Driver Arrived",
+    "inProgress": "Ride in Progress",
+    "completed": "Ride Completed",
+    "cancelled": "Ride Cancelled",
+    "driverName": "Driver Name",
+    "autoNumber": "Auto Number",
+    "contact": "Contact Driver",
+    "cancelRide": "Cancel Ride",
+    "rateRide": "Rate Ride",
+    "pending": "Finding Driver",
+    "driverassigned": "Driver Assigned",
+    "driverarrived": "Driver Arrived",
+    "inprogress": "Ride in Progress",
+    "completed": "Ride Completed",
+    "cancelled": "Ride Cancelled"
+  },
+  "driver": {
+    "title": "Driver Dashboard",
+    "newRide": "New Ride Request",
+    "accept": "Accept",
+    "decline": "Decline",
+    "arrived": "Arrived",
+    "startRide": "Start Ride",
+    "completeRide": "Complete Ride",
+    "earnings": "Today's Earnings",
+    "rides": "Total Rides",
+    "rating": "Rating",
+    "status": {
+      "available": "Available",
+      "busy": "Busy",
+      "offline": "Offline"
+    }
+  },
+  "zones": {
+    "railway-station": "Railway Station",
+    "bus-stand": "Bus Stand (CBS)",
+    "shahupuri": "Shahupuri Market",
+    "mahalaxmi": "Mahalaxmi Temple",
+    "jyotiba": "Jyotiba Temple",
+    "rankala": "Rankala Lake",
+    "panhala": "Panhala Fort",
+    "khasbag": "Khasbag Stadium",
+    "shivaji-udyan": "Shivaji Udyamnagar",
+    "sykes": "Sykes Extension",
+    "ruchira": "Ruchira Park",
+    "sangavi": "Sangavi",
+    "tarabai-park": "Tarabai Park",
+    "laxmipuri": "Laxmipuri"
+  }
+}
