@@ -1,0 +1,10 @@
+{
+  "projects": [
+    {
+      "path": "packages/frontend",
+      "name": "autowala-frontend"
+    }
+  ],
+  "buildCommand": "cd packages/frontend && npm run build",
+  "outputDirectory": "packages/frontend/dist"
+}
