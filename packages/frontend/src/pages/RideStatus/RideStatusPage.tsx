@@ -57,7 +57,6 @@ export default function RideStatusPage() {
   const [ride, setRide] = useState<Ride | null>(null);
   const [loading, setLoading] = useState(true);
   const [driverLocation, setDriverLocation] = useState<{ lat: number; lng: number } | null>(null);
-  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [driverEta, setDriverEta] = useState<number | null>(null);
   const [driverDistance, setDriverDistance] = useState<number | null>(null);
   const [showSosModal, setShowSosModal] = useState(false);
@@ -96,20 +95,13 @@ export default function RideStatusPage() {
 
   useEffect(() => {
     if (!navigator.geolocation) return;
-    const updateUserLocation = () => {
+    const interval = setInterval(() => {
       navigator.geolocation.getCurrentPosition(
-        (position) => {
-          setUserLocation({
-            lat: position.coords.latitude,
-            lng: position.coords.longitude
-          });
-        },
+        () => {},
         () => {},
         { enableHighAccuracy: true }
       );
-    };
-    updateUserLocation();
-    const interval = setInterval(updateUserLocation, 10000);
+    }, 10000);
     return () => clearInterval(interval);
   }, []);
 

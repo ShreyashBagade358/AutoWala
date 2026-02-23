@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 import express from 'express';
-import { config } from '../shared/constants/config.js';
+import { config } from '@autowala/shared/constants/config';
 
 const app = express();
 

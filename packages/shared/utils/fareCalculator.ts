@@ -1,5 +1,5 @@
 import { FareCalculation, GeoPoint } from '../types';
-import { config } from './config';
+import { config } from '../constants/config';
 
 export const calculateFare = (
   distanceKm: number,

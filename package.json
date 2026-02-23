@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Auto booking platform for Kolhapur - WhatsApp-first, union-partnered",
+  "packageManager": "npm@9.0.0",
   "workspaces": [
     "packages/*"
   ],

@@ -2,12 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../../store/authStore';
 import { useRideStore } from '../../store/rideStore';
-
-interface Zone {
-  id: string;
-  name: string;
-  baseFare: number;
-}
+import { Zone } from '@shared/types';
 
 export default function HomePage() {
   const navigate = useNavigate();

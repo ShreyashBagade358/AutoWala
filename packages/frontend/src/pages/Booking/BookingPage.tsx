@@ -87,13 +87,16 @@ export default function BookingPage() {
   const pickupLoc = currentRide.pickupLocation;
   const dropLoc = currentRide.dropLocation;
 
+  const mapPickup = pickupLoc ? { lat: pickupLoc.lat ?? pickupLoc.geoPoint?.latitude ?? 0, lng: pickupLoc.lng ?? pickupLoc.geoPoint?.longitude ?? 0, address: pickupLoc.address } : undefined;
+  const mapDrop = dropLoc ? { lat: dropLoc.lat ?? dropLoc.geoPoint?.latitude ?? 0, lng: dropLoc.lng ?? dropLoc.geoPoint?.longitude ?? 0, address: dropLoc.address } : undefined;
+
   return (
     <div className="h-screen bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 flex flex-col overflow-hidden">
       {/* Full Screen Map */}
       <div className="flex-1 min-h-0 relative">
         <MapTracking
-          pickupLocation={pickupLoc}
-          dropLocation={dropLoc}
+          pickupLocation={mapPickup}
+          dropLocation={mapDrop}
           driverLocation={driverLocation || undefined}
         />
         
